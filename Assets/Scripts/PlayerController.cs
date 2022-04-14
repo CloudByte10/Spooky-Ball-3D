@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -49,6 +50,12 @@ public class PlayerController : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Space)){
                 Jump();
             }
+        }
+
+        if(transform.position.y < -100)
+        {
+            Scene fell = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(fell.name);
         }
 
         // Set controller to move
