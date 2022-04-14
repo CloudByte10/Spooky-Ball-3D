@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HealthBarController : MonoBehaviour
 {
@@ -13,7 +14,9 @@ public class HealthBarController : MonoBehaviour
 
         if (HealthBarImage.fillAmount <= 0.0f)
         {
-            //end game
+            //restart
+            Scene thisScene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(thisScene.name);
         }
         else if(HealthBarImage.fillAmount < 0.2f){
             SetBarColor(Color.red);
