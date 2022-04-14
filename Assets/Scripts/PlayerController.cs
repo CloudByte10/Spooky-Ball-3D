@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // Set controller to move
-        controller.Move(moveDirection * Time.deltaTime );
+        controller.Move(moveDirection * walkSpeed * Time.deltaTime );
 
         // Bring character back to ground
         velocity.y += gravity * Time.deltaTime;
