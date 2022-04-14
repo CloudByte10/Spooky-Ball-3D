@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
         // Set front/back and left/right controls
         float moveZ = Input.GetAxis("Vertical");
         float moveX = Input.GetAxis("Horizontal");
-        moveDirection = new Vector3(moveX, 0, moveZ);
+        moveDirection = new Vector3(-moveX, 0, -moveZ);
 
          if(isGrounded && velocity.y < 0){
              velocity.y = -2f;
