@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class ghostCollider : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider obj)
     {
-        HealthBarController.HitDetected();
+        if (obj.gameObject.tag == "Ouch")
+        {
+            HealthBarController.HitDetected();
+        }
     }
 }

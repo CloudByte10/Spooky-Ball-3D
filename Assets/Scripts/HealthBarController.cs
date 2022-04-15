@@ -29,17 +29,11 @@ public class HealthBarController : MonoBehaviour
     public static void HitDetected()
     {
         float v;
-        if (start < 2)
-        {
-            SetHealthValue(1.0f);
-            start++;
-        }
-        else
-        {
-            v = GetValue();
-            v -= 0.1f;
-            SetHealthValue(v);
-        }
+        
+        v = GetValue();
+        v -= 0.1f;
+        SetHealthValue(v);
+       
     }
 
     public static void SetBarColor(Color healthColor){
@@ -55,6 +49,7 @@ public class HealthBarController : MonoBehaviour
     void Start()
     {
         HealthBarImage = GetComponent<Image>();
+        SetHealthValue(1.0f);
     }
 
     // Update is called once per frame

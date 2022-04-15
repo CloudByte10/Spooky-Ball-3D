@@ -146,15 +146,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3441148}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.9, y: 0.21, z: -5.97}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.9000015, y: 0.21000004, z: -5.970001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1647511495}
   - {fileID: 1444723093}
-  m_Father: {fileID: 1679947935}
-  m_RootOrder: 7
+  m_Father: {fileID: 825555308}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &9897164 stripped
 Transform:
@@ -175,6 +175,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -258,15 +262,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 39887952}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.54, y: 3.12, z: 6.08}
+  m_LocalRotation: {x: -0, y: 0.45132887, z: -0, w: 0.8923577}
+  m_LocalPosition: {x: -64.709076, y: -6.9416103, z: 23.863464}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1161909820}
   - {fileID: 1093003065}
-  m_Father: {fileID: 1679947935}
-  m_RootOrder: 0
+  m_Father: {fileID: 1564978730}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &52431687
 PrefabInstance:
@@ -282,6 +286,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -355,6 +363,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -439,6 +451,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -583,7 +599,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285339032}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -593,8 +609,8 @@ Transform:
   - {fileID: 253137618}
   - {fileID: 107699759}
   - {fileID: 436442364}
-  m_Father: {fileID: 1679947935}
-  m_RootOrder: 4
+  m_Father: {fileID: 825555308}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &294589685 stripped
 Transform:
@@ -611,6 +627,10 @@ PrefabInstance:
     - target: {fileID: 1215215807476055199, guid: 6658dac9c3095574c9820e23f80ecc10, type: 3}
       propertyPath: m_Name
       value: tree Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1215215807476055199, guid: 6658dac9c3095574c9820e23f80ecc10, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 1987918097712735781, guid: 6658dac9c3095574c9820e23f80ecc10, type: 3}
       propertyPath: m_RootOrder
@@ -665,9 +685,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3441149}
     m_Modifications:
+    - target: {fileID: 4391972718073749328, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898139613603179275, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566867709196263330, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_Name
       value: spikes Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 8934147100080372938, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_RootOrder
@@ -722,9 +758,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1406341435}
     m_Modifications:
+    - target: {fileID: 4391972718073749328, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898139613603179275, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566867709196263330, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_Name
       value: spikes Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 8934147100080372938, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_RootOrder
@@ -772,37 +824,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
---- !u!1 &372369735
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 372369736}
-  m_Layer: 0
-  m_Name: cobweb wall (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &372369736
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372369735}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.4966354, y: 3.8616104, z: 2.7191544}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1679947935}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &382936885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -817,6 +838,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -888,6 +913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1215215807476055199, guid: 6658dac9c3095574c9820e23f80ecc10, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 1987918097712735781, guid: 6658dac9c3095574c9820e23f80ecc10, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -941,9 +970,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1025074631}
     m_Modifications:
+    - target: {fileID: 4391972718073749328, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898139613603179275, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566867709196263330, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_Name
       value: spikes Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 8934147100080372938, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_RootOrder
@@ -1005,6 +1050,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -1099,6 +1148,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -1287,15 +1340,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490273380}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1815720490}
   - {fileID: 1470017986}
-  m_Father: {fileID: 1679947935}
-  m_RootOrder: 3
+  m_Father: {fileID: 825555308}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &493147264
 PrefabInstance:
@@ -1304,9 +1357,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 550435562}
     m_Modifications:
+    - target: {fileID: 4391972718073749328, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898139613603179275, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566867709196263330, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_Name
       value: spikes Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 8934147100080372938, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_RootOrder
@@ -1368,6 +1437,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -1530,6 +1603,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -1737,6 +1814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cobweb Variant (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1851,6 +1932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cobweb Variant (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1924,6 +2009,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -2007,15 +2096,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684381801}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.19, y: 0.98, z: -38.2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.190002, y: 0.97999954, z: -38.200005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1097099882}
   - {fileID: 416198674}
-  m_Father: {fileID: 1679947935}
-  m_RootOrder: 5
+  m_Father: {fileID: 825555308}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &692872306 stripped
 Transform:
@@ -2034,9 +2123,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3441149}
     m_Modifications:
+    - target: {fileID: 4391972718073749328, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898139613603179275, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566867709196263330, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_Name
       value: spikes Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 8934147100080372938, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_RootOrder
@@ -2183,37 +2288,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
   m_PrefabInstance: {fileID: 1085556736}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &731810479
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 731810480}
-  m_Layer: 0
-  m_Name: cobweb wall (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &731810480
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 731810479}
-  m_LocalRotation: {x: -0, y: -0.07520466, z: -0, w: 0.9971681}
-  m_LocalPosition: {x: 5.97, y: 12.98, z: 16.01}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1679947935}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: -8.626, z: 0}
 --- !u!1 &732918519
 GameObject:
   m_ObjectHideFlags: 0
@@ -2237,15 +2311,52 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732918519}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.5, y: 0.31, z: -6.6}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.5, y: 0.31000042, z: -6.5999985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1882492239}
   - {fileID: 1383574245}
+  m_Father: {fileID: 825555308}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &825555307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 825555308}
+  m_Layer: 0
+  m_Name: firstPhase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &825555308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825555307}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 490273381}
+  - {fileID: 285339033}
+  - {fileID: 684381802}
+  - {fileID: 1406341435}
+  - {fileID: 3441149}
+  - {fileID: 732918520}
   m_Father: {fileID: 1679947935}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &826568107 stripped
 Transform:
@@ -2271,6 +2382,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -2447,6 +2562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cobweb Variant (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2547,9 +2666,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1406341435}
     m_Modifications:
+    - target: {fileID: 4391972718073749328, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898139613603179275, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566867709196263330, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_Name
       value: spikes Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 8934147100080372938, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_RootOrder
@@ -2611,6 +2746,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -2686,6 +2825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cobweb Variant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2759,6 +2902,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -2839,6 +2986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1215215807476055199, guid: 6658dac9c3095574c9820e23f80ecc10, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 1987918097712735781, guid: 6658dac9c3095574c9820e23f80ecc10, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2899,6 +3050,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -2973,6 +3128,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -3090,9 +3249,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1025074631}
     m_Modifications:
+    - target: {fileID: 4391972718073749328, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898139613603179275, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566867709196263330, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_Name
       value: spikes Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 8934147100080372938, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_RootOrder
@@ -3200,6 +3375,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -3320,6 +3499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cobweb Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3394,6 +3577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cobweb Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3463,6 +3650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1215215807476055199, guid: 6658dac9c3095574c9820e23f80ecc10, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 1987918097712735781, guid: 6658dac9c3095574c9820e23f80ecc10, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3520,7 +3711,7 @@ GameObject:
   - component: {fileID: 1406341435}
   m_Layer: 0
   m_Name: spike path
-  m_TagString: Untagged
+  m_TagString: Ouch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3532,7 +3723,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406341434}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3540,8 +3731,8 @@ Transform:
   - {fileID: 697764426}
   - {fileID: 2009711304}
   - {fileID: 1475661194}
-  m_Father: {fileID: 1679947935}
-  m_RootOrder: 6
+  m_Father: {fileID: 825555308}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1444723093 stripped
 Transform:
@@ -3616,6 +3807,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cobweb Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3682,9 +3877,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1406341435}
     m_Modifications:
+    - target: {fileID: 4391972718073749328, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898139613603179275, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566867709196263330, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_Name
       value: spikes Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 8934147100080372938, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_RootOrder
@@ -3739,9 +3950,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 550435562}
     m_Modifications:
+    - target: {fileID: 4391972718073749328, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898139613603179275, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566867709196263330, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_Name
       value: spikes Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 8934147100080372938, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_RootOrder
@@ -3818,7 +4045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1564978730}
   m_Layer: 0
-  m_Name: Obstacles (1)
+  m_Name: secondPhase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3832,7 +4059,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1564978729}
   m_LocalRotation: {x: -0, y: -0.45132887, z: -0, w: 0.8923577}
-  m_LocalPosition: {x: 153.80212, y: 24.1, z: -23.958004}
+  m_LocalPosition: {x: 60.108757, y: 10.061611, z: 44.061153}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3842,8 +4069,9 @@ Transform:
   - {fileID: 1025074631}
   - {fileID: 550435562}
   - {fileID: 1500201259}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  - {fileID: 39887953}
+  m_Father: {fileID: 1679947935}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -53.658, z: 0}
 --- !u!4 &1611552681 stripped
 Transform:
@@ -3869,6 +4097,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -3945,7 +4177,7 @@ GameObject:
   - component: {fileID: 1679947935}
   m_Layer: 0
   m_Name: Obstacles
-  m_TagString: Untagged
+  m_TagString: Ouch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3962,15 +4194,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 39887953}
-  - {fileID: 372369736}
-  - {fileID: 731810480}
-  - {fileID: 490273381}
-  - {fileID: 285339033}
-  - {fileID: 684381802}
-  - {fileID: 1406341435}
-  - {fileID: 3441149}
-  - {fileID: 732918520}
+  - {fileID: 825555308}
+  - {fileID: 1564978730}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4021,6 +4246,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -4093,9 +4322,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1025074631}
     m_Modifications:
+    - target: {fileID: 4391972718073749328, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5898139613603179275, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566867709196263330, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_Name
       value: spikes Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122145030645229168, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 8934147100080372938, guid: 0d0ea9742b84f094e804760afa3c8c77, type: 3}
       propertyPath: m_RootOrder
@@ -4308,6 +4553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cobweb Variant (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4381,6 +4630,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -4461,6 +4714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cobweb Variant (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -4534,6 +4791,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -4619,6 +4880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cobweb Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
+      objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4696,6 +4961,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
@@ -4775,6 +5044,10 @@ PrefabInstance:
     - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_Name
       value: cobweb Variant (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389906624601596502, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
+      propertyPath: m_TagString
+      value: Ouch
       objectReference: {fileID: 0}
     - target: {fileID: 7909983713933359340, guid: 9e2637e95fef3104db8aabc859daabfb, type: 3}
       propertyPath: m_RootOrder
