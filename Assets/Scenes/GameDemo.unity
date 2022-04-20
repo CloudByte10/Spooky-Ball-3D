@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.0007200191, g: 0.0018433576, b: 0.05432608, a: 1}
+  m_IndirectSpecularColor: {r: 0.0008510157, g: 0.0018434842, b: 0.054547586, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1801,7 +1801,6 @@ MonoBehaviour:
   groundDist: 0.2
   gravity: -9.81
   isGrounded: 0
-  groundDistance: 1
   groundMask:
     serializedVersion: 2
     m_Bits: 64
@@ -2522,7 +2521,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.3725001, y: 1}
-  m_AnchoredPosition: {x: 39.9, y: -7.4}
+  m_AnchoredPosition: {x: 33, y: -7.4}
   m_SizeDelta: {x: 684.6476, y: 98.9506}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &890143524
@@ -2545,11 +2544,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'WASD => Move Character
-
-    Q => Rotate Left
-
-    R => Rotate Right'
+  m_text: "W/S => Move Forward/Backward\nA/D => Rotate Left/Right \nSPACE => Jump"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
