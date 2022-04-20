@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HealthBarController : MonoBehaviour
 {
@@ -13,7 +14,9 @@ public class HealthBarController : MonoBehaviour
 
         if (HealthBarImage.fillAmount <= 0.0f)
         {
-            //end game
+            //restart
+            Scene thisScene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(thisScene.name);
         }
         else if(HealthBarImage.fillAmount < 0.2f){
             SetBarColor(Color.red);
@@ -26,17 +29,11 @@ public class HealthBarController : MonoBehaviour
     public static void HitDetected()
     {
         float v;
-        if (start < 2)
-        {
-            SetHealthValue(1.0f);
-            start++;
-        }
-        else
-        {
-            v = GetValue();
-            v -= 0.1f;
-            SetHealthValue(v);
-        }
+        
+        v = GetValue();
+        v -= 0.1f;
+        SetHealthValue(v);
+       
     }
 
     public static void SetBarColor(Color healthColor){
@@ -52,6 +49,7 @@ public class HealthBarController : MonoBehaviour
     void Start()
     {
         HealthBarImage = GetComponent<Image>();
+        SetHealthValue(1.0f);
     }
 
     // Update is called once per frame
