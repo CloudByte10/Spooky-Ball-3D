@@ -1736,15 +1736,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594689547}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.2, y: 2.4, z: 0}
+  m_LocalRotation: {x: -0, y: -0.97925705, z: -0, w: -0.20262179}
+  m_LocalPosition: {x: -15.223967, y: 2.4, z: 0.08796586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1228159526}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -203.381, z: 0}
 --- !u!143 &594689550
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1792,6 +1792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 8
+  rotateSpeed: 2
   jumpHeight: 1.5
   groundDist: 0.2
   gravity: -9.81
@@ -1799,6 +1800,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
+  mainCam: {fileID: 0}
 --- !u!1001 &607520367
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2277,7 +2279,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.2
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -2575,6 +2577,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2640,7 +2643,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.006918632, y: 0.9781695, z: -0.13500166, w: 0.1578325}
+  m_LocalRotation: {x: -0.0069147535, y: 0.9781694, z: -0.1349983, w: 0.15783644}
   m_LocalPosition: {x: -17.56, y: 6.51, z: 6.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2662,8 +2665,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetObject: {fileID: 594689548}
   cameraOffset: {x: 0, y: 0, z: 0}
+  cameraDistance: 8
   smooth: 0.5
+  Target: {fileID: 594689548}
+  SmoothSpeed: 1
   lookTarget: 0
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7dca048fdc3cc4caf54ef493356b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 594689548}
+  SmoothSpeed: 15
 --- !u!1001 &1015723006
 PrefabInstance:
   m_ObjectHideFlags: 0
