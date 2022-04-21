@@ -64,8 +64,8 @@ public class PlayerController : MonoBehaviour
 
         if(transform.position.y < -100)
         {
-            Scene fell = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(fell.name);
+            // Scene fell = SceneManager.GetActiveScene();
+            SceneManager.LoadScene("DeathScreen");
         }
 
         // Bring character back to ground

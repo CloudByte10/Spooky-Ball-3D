@@ -14,7 +14,8 @@ public class MenuController : MonoBehaviour
 
     [SerializeField] private GameObject confirmationPrompt = null;
 
-    public string _newGameLevel;
+    public string _newGameLevel1;
+    public string _newGameLevel2;
     private string levelToLoad;
     [SerializeField] private GameObject noSavedGameDialog = null;
 
@@ -66,9 +67,14 @@ public class MenuController : MonoBehaviour
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
 
-    public void NewGameDialogYes()
+    public void NewGameDialogYes1()
     {
-        SceneManager.LoadScene(_newGameLevel);
+        SceneManager.LoadScene(_newGameLevel1);
+    }
+
+    public void NewGameDialogYes2()
+    {
+        SceneManager.LoadScene(_newGameLevel2);
     }
 
     public void LoadGameDialogYes()
@@ -124,8 +130,8 @@ public class MenuController : MonoBehaviour
         PlayerPrefs.SetInt("masterQuality", _qualityLevel);
         QualitySettings.SetQualityLevel(_qualityLevel);
 
-        PlayerPrefs.SetInt("masterFullscreen", (_isFullScreen ? 1 : 0));
-        Screen.fullScreen = _isFullScreen;
+        // PlayerPrefs.SetInt("masterFullscreen", (_isFullScreen ? 1 : 0));
+        // Screen.fullScreen = _isFullScreen;
 
         StartCoroutine(ConfirmationBox());
     }

@@ -15,8 +15,10 @@ public class HealthBarController : MonoBehaviour
         if (HealthBarImage.fillAmount <= 0.0f)
         {
             //restart
-            Scene thisScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(thisScene.name);
+            //Scene thisScene = SceneManager.GetActiveScene();
+            //SceneManager.LoadScene(thisScene.name);
+
+            SceneManager.LoadScene("DeathScreen");
         }
         else if(HealthBarImage.fillAmount < 0.2f){
             SetBarColor(Color.red);
