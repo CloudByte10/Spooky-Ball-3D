@@ -25,10 +25,10 @@ public class PointSystem : MonoBehaviour
         int c;
 
         c = GetValue();
-        if (c < 20)
+        if (c < 5)
             c += 1;
         SetValue(c);
-        score.text = collected.ToString() + "/20";
+        score.text = collected.ToString() + "/5";
 
     }
 }
