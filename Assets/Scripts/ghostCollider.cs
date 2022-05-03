@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class ghostCollider : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider obj)
+    public void OnTriggerEnter(Collider obj)
     {
         if (obj.gameObject.tag == "Ouch")
         {
             HealthBarController.HitDetected();
+        }
+        else if (obj.gameObject.tag == "Point")
+        {
+            PointSystem.BallFound();
+            Destroy(obj.gameObject);
         }
     }
 }
