@@ -4,7 +4,7 @@
  
  public class GoToVictoryScreen : MonoBehaviour 
  {
-     void OnTriggerEnter(Collider other)
+     public static void Victorious()
      {
         SceneManager.LoadScene("VictoryScreen");
      }

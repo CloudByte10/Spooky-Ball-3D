@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ouch
   - Point
+  - End
   layers:
   - Default
   - TransparentFX

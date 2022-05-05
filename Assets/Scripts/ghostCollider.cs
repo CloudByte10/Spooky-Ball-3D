@@ -15,5 +15,9 @@ public class ghostCollider : MonoBehaviour
             PointSystem.BallFound();
             Destroy(obj.gameObject);
         }
+        else if (obj.gameObject.tag == "End")
+        {
+            GoToVictoryScreen.Victorious();
+        }
     }
 }
