@@ -8,7 +8,7 @@ Spooky Ball 3D is an interactive 3D platformer with a horror theme that allows p
 3. Follow the setup instructions and open the Unity Hub application
 4. Install the Unity Editor (Unity 2021.2.15f1 Personal)
 5. Clone or download the source code from Github: https://github.com/CloudByte10/Spooky-Ball-3D/tree/Dev
-**Note: All of our changes are on the Dev branch, not the main branch. **
+#### Note: All of our changes are on the Dev branch, not the main branch.
 7. Open the Unity Editor application
 8. Go to File/Build Settings
 9. Ensure that the target platform is Windows and that the Architecture is Intel 64-bit
